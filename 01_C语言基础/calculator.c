@@ -8,18 +8,18 @@ int main(){
         printf("输入错误，请输入正确的算式。\n");
         return 1;
     }else if(op=='+'){
-        printf("%f+%f=%f\n",a,b,a+b);
+        printf("%.2f+%.2f=%.2f\n",a,b,a+b);
     }else if(op=='-'){
-        printf("%f-%f=%f\n",a,b,a-b);
+        printf("%.2f-%.2f=%.2f\n",a,b,a-b);
     }else if(op=='*'){
-        printf("%f*%f=%f\n",a,b,a*b);
+        printf("%.2f*%.2f=%.2f\n",a,b,a*b);
     }else if(op=='/'){
         while(1){
             if(b==0){
             printf("除数不能为0，请重新输入正确的除法算式：");
             scanf("%lf%c%lf",&a,&op,&b);
             }else{
-            printf("%f/%f=%f\n",a,b,a/b);
+            printf("%.2f/%.2f=%.2f\n",a,b,a/b);
             break;
             }
         }
