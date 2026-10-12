@@ -3,11 +3,11 @@ int main(){
     int a=0;
     int b=0;
     int c=0;
-    printf("请输入第一个变量a：\n");
+    printf("请输入第一个变量a：");
     scanf("%d",&a);
     int *p1=&a;
-    printf ("请输入第二个变量b：\n");
-    scanf("%d",&b)
+    printf ("请输入第二个变量b：");
+    scanf("%d",&b);
     int *p2=&b;
     c=*p1;
     *p1=*p2;
