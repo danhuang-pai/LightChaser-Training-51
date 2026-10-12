@@ -1,8 +1,8 @@
-#include <stdio>
+#include <stdio.h>
 int main(){
     int a=0;
     int b=0;
-    int c=o;
+    int c=0;
     printf("请输入第一个变量a：\n");
     scanf("%d",&a);
     int *p1=&a;
