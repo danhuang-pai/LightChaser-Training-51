@@ -5,8 +5,8 @@ from openai import OpenAI
 load_dotenv()                       # 读取 .env 里的 Key
 client = OpenAI(
     api_key=os.getenv("DEEPSEEK_API_KEY"),
-    base_url="https://api.deepseek.com", 
-) 
+    base_url="https://api.deepseek.com",   # ★ 这是关键：换成 DeepSeek 的地址
+)
 resp = client.chat.completions.create(
     model="deepseek-chat",          # 或 deepseek-reasoner（推理版）
     messages=[
