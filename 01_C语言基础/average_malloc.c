@@ -30,7 +30,7 @@ int main(){
         }
         sum+=p[i];
     }
-    printf("平均值为：%.2f\n",sum/n);
+    printf("这%d个数的平均值为：%.2f\n",n,sum/n);
     free(p);  //释放动态分配的空间。
     p=NULL;
     return 0;
