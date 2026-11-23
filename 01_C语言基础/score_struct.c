@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-typedef struct score_struct
+typedef struct scorestruct
 {
     char name[20];
     double score;
